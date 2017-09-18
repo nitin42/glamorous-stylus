@@ -1,0 +1,27 @@
+{
+  "name": "glamorous-stylus",
+  "version": "1.0.0-beta4",
+  "description": "Stylus with glamorous",
+  "main": "index.js",
+  "files": [
+    "build",
+    "src"
+  ],
+  "repository": "https://www.github.com/nitin42/glamorous-stylus",
+  "author": "Nitin Tulswani",
+  "license": "MIT",
+  "dependencies": {
+    "stylus-in-react": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-app": "^3.0.2",
+    "webpack": "^3.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --progress --config webpack.config.js"
+  }
+}
