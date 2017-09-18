@@ -1,8 +1,14 @@
 {
   "name": "glamorous-stylus",
-  "version": "1.0.0-beta4",
+  "version": "1.0.0",
   "description": "Stylus with glamorous",
   "main": "index.js",
+  "keywords": [
+    "stylus",
+    "glamorous",
+    "react",
+    "stylus-in-react"
+  ],
   "files": [
     "build",
     "src"
