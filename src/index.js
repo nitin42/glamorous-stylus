@@ -1,7 +1,5 @@
 const { stylus, keyframes, fontFace } = require('stylus-in-react')
 
-typeof window === undefined ? global : {};
-
 // All checks are done in stylus-in-react
 function glamorousStylus(stylusCode, { displayName } = {}) {
   return stylus(stylusCode, { displayName })
